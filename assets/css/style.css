@@ -1,0 +1,47 @@
+body {
+  text-align: center;
+  background: url("/assets/img/fundo.png") no-repeat center;
+  background-size: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 40px;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+  color: #fff;
+}
+h1,
+h2 {
+  color: #fff;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+h1 {
+  font-size: 1.875rem;
+}
+h2 {
+  font-size: 1.375rem;
+  font-weight: 400;
+}
+.img-profile img {
+  width: 150px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+.links a {
+  background-color: rgba(255, 255, 255, 0.2);
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+  margin: 0.625rem auto;
+  border-radius: 1.25rem;
+  justify-self: start;
+}
+.links a:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.driven-logo {
+  margin-top: 50px;
+}
